@@ -1,13 +1,15 @@
 import "./App.css";
-import useWindowWidth from "./useWindowWidth";
+import HookForms from "./Forms/HookForms";
+// import FormikComponent from "./Forms/FormikComponent";
+// import ControlledForm from "./ControlledForms/ControlledForm";
 
 function App() {
-  const width = useWindowWidth();
-
   return (
     <div className="App">
       <header className="App-header">
-        <p>Ширина вікна: {width}px</p>
+        <HookForms />
+        {/* <FormikComponent /> */}
+        {/* <ControlledForm /> */}
       </header>
     </div>
   );
@@ -16,6 +18,9 @@ function App() {
 export default App;
 
 // З лекції:
+
+//  const width = useWindowWidth();
+// <p>Ширина вікна: {width}px</p>
 
 // -----
 

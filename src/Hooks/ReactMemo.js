@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 import { v4 as uuidv4 } from "uuid";
-import ChildComponent from "./ChildComponent";
-import ButtonComponent from "./ButtonComponent";
+import ChildComponent from "../ChildComponent";
+import ButtonComponent from "../ButtonComponent";
 
 const ReactMemo = () => {
   const [fruits, setFruits] = useState([

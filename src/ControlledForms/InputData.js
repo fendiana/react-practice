@@ -1,0 +1,26 @@
+const InputData = ({ value }) => {
+  return (
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "flex-start",
+      }}
+    >
+      <p>
+        firstName: <strong>{value.name}</strong>
+      </p>
+      <p>
+        email: <strong>{value.email}</strong>
+      </p>
+      <p>
+        checkbox: <strong>{value.checkbox.toString()}</strong>
+      </p>
+      <p>
+        select: <strong>{value.select}</strong>
+      </p>
+    </div>
+  );
+};
+
+export default InputData;
